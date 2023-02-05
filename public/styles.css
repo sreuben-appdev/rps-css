@@ -14,3 +14,14 @@
   cursor: pointer;
   border-radius: 12px;
 }
+/*****************************/
+.container {
+  width: 100%;
+}
+.row {
+  display: flex;
+  justify-content: start;
+}
+.one-third {
+  width: 32%;
+}
