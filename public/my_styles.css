@@ -1,0 +1,42 @@
+*{
+  /border: thin red dashed; */
+  box-sizing:border-box;
+}
+
+body {
+  font-family:'Press Start 2p',cursive;
+}
+
+.row {
+  display: flex;
+  justify-content:space-between;
+}
+
+
+
+ .button {
+    color:brown;
+    border:1px black solid; 
+    display:inline-block;
+    width: 100%;
+    text-align: center;
+    padding-top: 0.25em;
+    Padding-bottom: 0.25em;
+    border-radius: 5px;
+    text-decoration : none;
+  }
+
+  .player-card {
+    Border: thin green solid;
+    width: 49%;
+  }
+
+  .computer-card{
+    border: thin black solid;
+    width: 49%;
+  }
+
+  .one-third{
+    width: 32%;
+  }
+  

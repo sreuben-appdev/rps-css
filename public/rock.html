@@ -6,58 +6,43 @@
   <!-- Expand the number of characters we can use in the document beyond basic ASCII 🎉 -->
   <meta charset="utf-8">
 
-  <style>
-     .button {
-        color:brown;
-        border:1px black solid; 
-        padding-top: 5px; 
-        padding: 5px 15px;
-        border-radius: 5px
-        text-decoration : none;
-      }
-
-      .player-card {
-        Border: thin green solid;
-        width: 49%;
-      }
-
-        .computer-card{
-          border: thin black solid;
-          width: 49%;
-        }
-      
-  </style>
+<link rel="stylesheet" href="/my_styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <div>
+  <div class="row">
+  <div class="one-third">
     <a class="button" href="/rock">
       Play Rock
     </a>
   </div>
 
-  <div>
+  <div class="one-third">
     <a class="button" href="/paper">
       Play Paper
     </a>
   </div>
 
-  <div>
+  <div class="one-third">
     <a class="button" href="/scissors">
       Play Scissors
     </a>
   </div>
+  </div>
   
+<div class="row">
   <div class="player-card">
     <h2 style="color: blue">
-   <em>We played rock!</em>
-  </h2>
+       <em>We played rock!</em>
+    </h2>
   </div>
 
   <div class="computer-card">
   <h2>
     They played paper!
   </h2>
+  </div>
 </div>
   
     <h2 style="color:red ">
